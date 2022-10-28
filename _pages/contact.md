@@ -5,34 +5,29 @@ comments: false
 ---
 
 <h5>Adres:</h5>
-<div>Minik Damla,
-Prof. Kazım İsmail Gürkan Cad. No:8 Kat: 2
-Cagaloglu - Fatih, 34110 İstanbul</div>
+<div>İstanbul Nakkaşhanesi,
+Kanlıca Mah. Mihrabat Cad. No: 91 Beykoz / İstanbul</div>
 <h5>Telefon:</h5>
-<div><a href="tel:+902125142828">+90 212 514 28 28</a></div>
+<div><a href="tel:+902163324025">0216 332 40 25</a></div>
 <h5>e-posta:</h5>
 <div><a href="mailto:{{site.email}}">{{site.email}}</a></div>
 <hr>
 
+<h5>Şube</h5>
+<div><b>Adres: </b>Cerrahpaşa Mh. Hekimoğlu Ali Paşa Cd. Hekimoğlu Ali Paşa Külliyesi No: 119 Koca Mustafa Paşa / Fatih / İstanbul</div>
+<hr>
+
+<h5>Eğitim İşleri</h5>
+<div>Kanlıca 0530 160 45 79</div>
+<div>Kanlıca 0530 160 45 79</div>
+<div>
+<img src="/assets/images/contact/iletisim.jpg" alt="">
+</div>
+
 <div class="mapouter">
     <div class="gmap_canvas">
-        <iframe width="800px" height="400px" id="gmap_canvas" src="https://maps.google.com/maps?q=Damla%20Yay%C4%B1nevi&t=&z=15&ie=UTF8&iwloc=&output=embed" frameborder="0" scrolling="no" marginheight="0" marginwidth="0"></iframe>
+<iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d6013.4207784982145!2d29.074887000000004!3d41.097174!3m2!1i1024!2i768!4f13.    1!3m3!1m2!1s0x14caca3f54b01409%3A0xac19b7963776fb35!2sKanl%C4%B1ca%2C%20Mihrabat%20Cd.%20Abd%C3%BClvehhab%20Evvab%20Camii%20No%3A91%2C%2034810%20Beykoz%2F%C4%B0stanbul!5e0!3m2!1str!2str!4v1666272294473!5m2!1str!2str" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
         <br><style>.mapouter{position:relative;text-align:right;height:40vh;width:80vh;}</style>
         <style>.gmap_canvas {overflow:hidden;background:none!important;height:40vh;width:80vh;}</style>
     </div>
 </div>
-
-<hr>
-<form action="https://formspree.io/f/xvodldww" method="POST">    
-<p class="mb-4">Lüften mesajlarınızı bize yazın. En kısa sürede size geri dönüş sağlayacağız!</p>
-<div class="form-group row">
-<div class="col-md-6">
-<input class="form-control" type="text" name="name" placeholder="İsim*" required>
-</div>
-<div class="col-md-6">
-<input class="form-control" type="email" name="_replyto" placeholder="E-posta*" required>
-</div>
-</div>
-<textarea rows="8" class="form-control mb-3" name="message" placeholder="Mesaj*" required></textarea>    
-<input class="btn btn-success" type="submit" value="Gönder">
-</form>

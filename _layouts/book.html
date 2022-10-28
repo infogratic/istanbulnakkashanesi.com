@@ -93,11 +93,11 @@ layout: default
 		<!-- Attribute list: -->
 		<div class="col-md-3 order-md-1">
 						<ul class="list-group mb-4">
-							{% if book.publish-number %}
+							<!-- {% if book.publish-number %}
 							<li class="list-group-item">
 								<div class="md-v-line"></div><i class="fas fa-fingerprint mr-1 fa-lg text-dark"></i><span class="mr-1">Yayın No:</span>{{book.publish-number}}
 							</li>
-							{% endif %}
+							{% endif %} -->
 
 							{% if book.authors %}
 							<li class="list-group-item">
@@ -111,9 +111,19 @@ layout: default
 
 							{% if book.illustrators %}
 							<li class="list-group-item">
-								<div class="md-v-line"></div><i class="fas fa-paint-brush mr-1 fa-lg text-warning"></i><span class="mr-1">Tasarım:</span>{% for bookillustrator in book.illustrators %} {% assign siteillustrator = site.illustrators | where:"key", bookillustrator | first %} <a href="{{ site.baseurl }}/{{siteillustrator.url}}">{{ siteillustrator.title }}</a>{% if forloop.last == false %},{% endif %} {% endfor %}
+								<div class="md-v-line"></div><i class="fas fa-paint-brush mr-1 fa-lg text-warning"></i><span class="mr-1">Çizer:</span>
+								{% for bookillustrator in book.illustrators %} 
+									{{ bookillustrator }}
+									{% if forloop.last == false %},{% endif %} 
+								 {% endfor %}
 							</li>
 							{% endif %}
+
+							<!-- {% if book.illustrators %}
+							<li class="list-group-item">
+								<div class="md-v-line"></div><i class="fas fa-paint-brush mr-1 fa-lg text-warning"></i><span class="mr-1">Çizer:</span>{% for bookillustrator in book.illustrators %} {% assign siteillustrator = site.illustrators | where:"key", bookillustrator | first %} <a href="{{ site.baseurl }}/{{siteillustrator.url}}">{{ siteillustrator.title }}</a>{% if forloop.last == false %},{% endif %} {% endfor %}
+							</li>
+							{% endif %} -->
 
 							{% if book.page %}
 							<li class="list-group-item">
