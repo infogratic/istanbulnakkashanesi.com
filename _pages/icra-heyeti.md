@@ -4,7 +4,7 @@ permalink: "/icraheyeti"
 comments: false
 ---
 
-    <style>
+<style>
         /* Sayfa stili */
         body {
             font-family: Arial, sans-serif;
@@ -29,13 +29,13 @@ comments: false
         .darken {
             background-color: rgba(0, 0, 0, 0.8);
         }
-    </style>
+</style>
 
 <img src="/assets/images/posts/icraheyeti.png" alt="">
 
-    <div class="overlay" id="overlay"></div>
+<div class="overlay" id="overlay"></div>
 
-    <script>
+<script>
         // Sayfa yüklendikten 1 saniye sonra overlay katmanını karartmaya başla
         setTimeout(function() {
             document.getElementById('overlay').classList.add('darken');
@@ -45,4 +45,4 @@ comments: false
         setTimeout(function() {
             window.location.href = "https://www.istanbulmushafi.com";
         }, 5000); // 5 saniye sonra yönlendirme
-    </script>
+</script>
