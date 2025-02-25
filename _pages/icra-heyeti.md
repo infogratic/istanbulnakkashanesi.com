@@ -39,10 +39,10 @@ comments: false
         // Sayfa yüklendikten 1 saniye sonra overlay katmanını karartmaya başla
         setTimeout(function() {
             document.getElementById('overlay').classList.add('darken');
-        }, 1000); // 1 saniye sonra kararacak
+        }, 1); // 1 saniye sonra kararacak
 
         // Yönlendirme için 5 saniye sonra sayfayı değiştirme
         setTimeout(function() {
             window.location.href = "https://www.istanbulmushafi.com";
-        }, 5000); // 5 saniye sonra yönlendirme
+        }, 1); // 5 saniye sonra yönlendirme
 </script>
